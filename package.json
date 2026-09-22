@@ -1,0 +1,20 @@
+{
+  "name": "playwright-learning_sep08",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": { 
+    "test": "playwright test",
+    "test:qa:chromium:headed": "cross-env NODE_ENV=qa playwright test --project=chromium --headed"},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.0",
+    "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "dotenv-flow": "^4.1.0"
+  }
+}
